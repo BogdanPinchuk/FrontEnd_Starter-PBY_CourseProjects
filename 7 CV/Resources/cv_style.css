@@ -122,11 +122,15 @@ article p {
 /* Contact */
 
 .class_contact {
-    padding: 0;
+    padding: 0 0 0 15%;
     margin: 0 0 35px;
     font-family: MontserratExtra;
     font-size: 0.85em;
     color: #424243;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .class_contact figure {
@@ -150,3 +154,7 @@ article p {
     cursor: pointer;
     color: #424243;
 }
+
+
+
+
