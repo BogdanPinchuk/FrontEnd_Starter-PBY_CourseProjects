@@ -8,12 +8,18 @@ main {
     width: 210mm;
     margin: 1px auto 1px;
     padding: 0;
-    background-color: yellow;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }
+
+/* Contact information */
 
 aside {
     width: 33%;
-    padding: 0 0 75px;
+    padding: 0 0 50px;
+    margin: 0;
     background-color: #bed8ec;
 }
 
@@ -38,7 +44,6 @@ aside #id_photo {
     flex-direction: column;
     justify-content: flex-start;
     align-content: center;
-    /* background-color: violet; */
 }
 
 #id_photo img {
@@ -103,12 +108,11 @@ aside article {
     flex-direction: column;
     justify-content: flex-start;
     align-content: center;
-    /* align-self: center; */
     margin: 0;
     padding: 0;
 }
 
-article p {
+aside article p {
     height: 40px;
     width: 70%;
     position: relative;
@@ -231,4 +235,71 @@ article p {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+}
+
+/* Base  information */
+
+section {
+    width: 60%;
+    padding: 55px 0 50px 0;
+    margin: 0 6% 0;
+    /* background-color: yellow; */
+}
+
+section article{
+    margin: 15px 0 50px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* align-content: flex-start; */
+
+}
+
+.class_titleFig{
+    margin: 0 0 15px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.class_titleFig img{
+    margin: 0 15px 0 0;
+    padding: 0;
+    width: 3em;
+}
+
+@font-face {
+    font-family: OpenSans-Bold;
+    src: url('fonts/OpenSans-Bold.ttf');
+}
+
+@font-face {
+    font-family: Lato-Regular;
+    src: url('fonts/Lato-Regular.ttf');
+}
+
+.class_titleFig figcaption{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: OpenSans-Bold;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    color: #424243;
+    border-bottom: 3px solid #343334;
+}
+
+/* About Me */
+
+#id_aboutMe{
+    margin: 15px 0 0;
+    padding: 0;
+    color: #777778;
+    font-size: 0.95em;
+    font-family: Lato-Regular;
+    text-align: justify;
 }
