@@ -120,8 +120,9 @@ article p {
 }
 
 /* Contact */
+/* Follow Me */
 
-.class_contact {
+.class_contact, .class_follwoMe {
     padding: 0 0 0 15%;
     margin: 0 0 35px;
     font-family: MontserratExtra;
@@ -133,7 +134,7 @@ article p {
     align-items: flex-start;
 }
 
-.class_contact figure {
+.class_contact figure, .class_follwoMe figure {
     margin: 0 0 15px;
     padding: 0;
     display: flex;
@@ -145,16 +146,18 @@ article p {
 .class_contact img {
     margin: 0 10px 0 0;
     padding: 0;
-    /* height: 1.75em; */
     width: 1.25em;
 }
 
-.class_contact a{
+.class_follwoMe img {
+    margin: 0 10px 0 0;
+    padding: 0;
+    width: 1.75em;
+}
+
+.class_contact a, .class_follwoMe a{
     text-decoration: none;
     cursor: pointer;
     color: #424243;
 }
-
-
-
 
