@@ -219,7 +219,7 @@ aside article p {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-content: space-between
+    align-content: space-between;
 }
 
 .class_hobbies p {
@@ -247,7 +247,7 @@ section {
 }
 
 section article {
-    margin: 15px 0 50px;
+    margin: 10px 0 40px;
     padding: 0;
     display: flex;
     flex-direction: column;
@@ -256,7 +256,7 @@ section article {
 }
 
 .class_titleFig {
-    margin: 0 0 15px;
+    margin: 0 0 10px;
     padding: 0;
     display: flex;
     flex-direction: row;
@@ -337,4 +337,42 @@ section article {
     font-size: 0.95em;
     font-family: Lato-Regular;
     text-align: justify;
+}
+
+/* Skills */
+
+.class_skills {
+    padding: 0;
+    margin: 15px 0 0;
+    font-family: OpenSans-Bold;
+    font-size: 0.8em;
+    color: #424243;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.class_skills figure {
+    width: 175px;
+    margin: 0 0 10px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.class_skills div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+.class_skills img {
+    margin: 0 0 0 7.5px;
+    padding: 0;
+    width: 0.6em;
 }
