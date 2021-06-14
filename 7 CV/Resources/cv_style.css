@@ -204,9 +204,9 @@ aside article p {
 }
 
 .class_language img {
-    margin: 0 0 0 10px;
+    margin: 0 0 0 7.5px;
     padding: 0;
-    width: 0.7em;
+    width: 0.6em;
 }
 
 /* Hobbies */
@@ -246,24 +246,23 @@ section {
     /* background-color: yellow; */
 }
 
-section article{
+section article {
     margin: 15px 0 50px;
     padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     /* align-content: flex-start; */
-
 }
 
-.class_titleFig{
+.class_titleFig {
     margin: 0 0 15px;
     padding: 0;
     display: flex;
     flex-direction: row;
 }
 
-.class_titleFig img{
+.class_titleFig img {
     margin: 0 15px 0 0;
     padding: 0;
     width: 3em;
@@ -279,7 +278,7 @@ section article{
     src: url('fonts/Lato-Regular.ttf');
 }
 
-.class_titleFig figcaption{
+.class_titleFig figcaption {
     width: 100%;
     margin: 0;
     padding: 0;
@@ -295,8 +294,44 @@ section article{
 
 /* About Me */
 
-#id_aboutMe{
+#id_aboutMe {
     margin: 15px 0 0;
+    padding: 0;
+    color: #777778;
+    font-size: 0.95em;
+    font-family: Lato-Regular;
+    text-align: justify;
+}
+
+/* Education */
+/* Expirience */
+
+.class_E {
+    margin: 20px 0 0;
+    padding: 0;
+    color: #424243;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.class_E #id_e1 {
+    margin: 0;
+    padding: 0;
+    font-family: OpenSans-Bold;
+    font-size: 1.25em;
+}
+
+.class_E #id_e2 {
+    margin: 0;
+    padding: 0;
+    font-family: Lato-Regular;
+    font-size: 1.05em;
+}
+
+#id_E {
+    margin: 10px 0 0;
     padding: 0;
     color: #777778;
     font-size: 0.95em;
