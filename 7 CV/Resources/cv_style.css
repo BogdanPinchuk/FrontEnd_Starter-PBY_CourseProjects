@@ -59,6 +59,11 @@ aside #id_photo {
 }
 
 @font-face {
+    font-family: MontserratSemiBold;
+    src: url('fonts/Montserrat-SemiBold.ttf');
+}
+
+@font-face {
     font-family: MontserratExtra;
     src: url(fonts/Montserrat-Medium.ttf);
 }
@@ -124,7 +129,7 @@ article p {
 
 .class_contact, .class_follwoMe {
     padding: 0 0 0 15%;
-    margin: 0 0 35px;
+    margin: 0 0 40px;
     font-family: MontserratExtra;
     font-size: 0.85em;
     color: #424243;
@@ -161,3 +166,40 @@ article p {
     color: #424243;
 }
 
+/* Language */
+
+.class_language{
+    /* padding: 0 15% 0; */
+    padding: 0;
+    width: 70%;
+    margin: 0 0 40px;
+    font-family: MontserratSemiBold;
+    font-size: 0.95em;
+    color: #424243;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+
+.class_language figure{
+    margin: 0 0 15px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.class_language div{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+.class_language img {
+    margin: 0 0 0 10px;
+    padding: 0;
+    width: 0.7em;
+}
