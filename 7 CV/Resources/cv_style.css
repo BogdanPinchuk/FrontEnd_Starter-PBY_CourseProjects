@@ -13,6 +13,7 @@ main {
 
 aside {
     width: 33%;
+    padding: 0 0 75px;
     background-color: #bed8ec;
 }
 
@@ -121,10 +122,11 @@ article p {
     align-content: center;
     align-items: center;
     padding: 0;
-    margin: 0;
+    margin: 0 0 15px;
 }
 
 /* Contact */
+
 /* Follow Me */
 
 .class_contact, .class_follwoMe {
@@ -160,7 +162,7 @@ article p {
     width: 1.75em;
 }
 
-.class_contact a, .class_follwoMe a{
+.class_contact a, .class_follwoMe a {
     text-decoration: none;
     cursor: pointer;
     color: #424243;
@@ -168,8 +170,7 @@ article p {
 
 /* Language */
 
-.class_language{
-    /* padding: 0 15% 0; */
+.class_language {
     padding: 0;
     width: 70%;
     margin: 0 0 40px;
@@ -182,7 +183,7 @@ article p {
     align-self: center;
 }
 
-.class_language figure{
+.class_language figure {
     margin: 0 0 15px;
     padding: 0;
     display: flex;
@@ -191,7 +192,7 @@ article p {
     align-items: center;
 }
 
-.class_language div{
+.class_language div {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -202,4 +203,32 @@ article p {
     margin: 0 0 0 10px;
     padding: 0;
     width: 0.7em;
+}
+
+/* Hobbies */
+
+.class_hobbies {
+    padding: 0 15%;
+    width: 70%;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between
+}
+
+.class_hobbies p {
+    background-color: transparent;
+    color: #424243;
+    height: 40px;
+    width: 80px;
+    font-family: MontserratExtra;
+    font-size: 0.75em;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
 }
