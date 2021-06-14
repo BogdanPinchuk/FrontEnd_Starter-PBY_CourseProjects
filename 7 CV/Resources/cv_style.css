@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #EEF3FA;
+}
+
+main {
+    width: 210mm;
+    margin: 1px auto 1px;
+    padding: 0;
+    background-color: yellow;
+}
+
+aside {
+    width: 33%;
+    background-color: #bed8ec;
+}
+
+/* Photo */
+
+aside #id_photo {
+    width: 100%;
+    background-color: white;
+    margin: 0;
+    padding: 0 0 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    color: #424243;
+}
+
+#id_photo figure {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    /* background-color: violet; */
+}
+
+#id_photo img {
+    width: 80%;
+    margin: 50px 0 25px;
+    padding: 0;
+    align-self: center;
+    clip-path: circle(45%);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url('fonts/Montserrat-Regular.ttf');
+}
+
+@font-face {
+    font-family: MontserratBold;
+    src: url('fonts/Montserrat-Bold.ttf');
+}
+
+@font-face {
+    font-family: MontserratExtra;
+    src: url(fonts/Montserrat-Medium.ttf);
+}
+
+#id_p1 {
+    font-family: Montserrat;
+    font-size: 1.75em;
+    align-self: center;
+    width: fit-content;
+    padding: 0;
+    margin: 0;
+}
+
+#id_p2 {
+    font-family: MontserratBold;
+    font-size: 1.75em;
+    font-weight: 900;
+    align-self: center;
+    width: fit-content;
+    padding: 0;
+    margin: 0;
+}
+
+#id_p3 {
+    font-family: MontserratExtra;
+    font-size: 0.65em;
+    align-self: center;
+    width: fit-content;
+    padding: 0;
+    margin: 5px 0 0;
+}
+
+aside article {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    /* align-self: center; */
+    margin: 0;
+    padding: 0;
+}
+
+article p {
+    height: 40px;
+    width: 70%;
+    position: relative;
+    top: -20px;
+    background-color: #424243;
+    color: white;
+    font-family: MontserratBold;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+/* Contact */
+
+.class_contact {
+    padding: 0;
+    margin: 0 0 35px;
+    font-family: MontserratExtra;
+    font-size: 0.85em;
+    color: #424243;
+}
+
+.class_contact figure {
+    margin: 0 0 15px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.class_contact img {
+    margin: 0 10px 0 0;
+    padding: 0;
+    /* height: 1.75em; */
+    width: 1.25em;
+}
+
+.class_contact a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #424243;
+}
