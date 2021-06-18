@@ -12,22 +12,98 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    align-content: center;
+    /* align-content: flex-start; */
+    align-content: flex-start;
 }
 
-header figure{
+header figure {
     margin: 0;
     padding: 85px 0 50px;
     width: 35%;
     background-color: #FFFFFF1a;
 }
 
-header figure img{
+header figure img {
     width: 100%;
 }
 
-#id_baseInfo{
-    margin: 85px 5% 50px;
+@font-face {
+    font-family: MontserratAlternatesBold;
+    src: url('fonts/MontserratAlternates-Bold.ttf');
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url('fonts/Montserrat-Regular.ttf');
+}
+
+@font-face {
+    font-family: MontserratAlternates;
+    src: url('fonts/MontserratAlternates-Regular.ttf');
+}
+
+@font-face {
+    font-family: AvantGardeGothicC;
+    src: url('fonts/avantgardegothicc-bold.otf');
+}
+
+#id_baseInfo {
+    margin: 85px 0 50px 5%;
+    padding: 0;
+    width: 55%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: gray;
+}
+
+#id_PIB {
+    margin: 0;
+    padding: 0;
+    font-family: MontserratAlternatesBold;
+    font-size: 3.25em;
+}
+
+#id_vacancy {
+    margin: 10px 0 25px;
+    padding: 2px 12px;
+    font-family: MontserratAlternates;
+    font-size: 1.55em;
+    background-color: #FFFFFF1a;
+}
+
+#id_contacts {
+    margin: 0;
+    padding: 0;
+    font-family: AvantGardeGothicC;
+    font-weight: bolder;
+    font-size: 1em;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#id_contacts p{
+    margin: 15px 0 7.5px;
+    padding: 0;
+}
+
+#id_contacts a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: white;
+    font-family: MontserratAlternates;
+    font-weight: lighter;
+}
+
+#id_contacts div {
+    margin: 0;
+    padding: 0;
+    width: 200px;
 }
 
 main {
