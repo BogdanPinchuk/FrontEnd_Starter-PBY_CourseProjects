@@ -1,0 +1,383 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #EEF3FA;
+}
+
+main {
+    width: 210mm;
+    margin: 1px auto 1px;
+    padding: 0;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+/* Contact information */
+
+aside {
+    width: 33%;
+    padding: 0 0 50px;
+    margin: 0;
+    background-color: #bed8ec;
+}
+
+/* Photo */
+
+aside #id_photo {
+    width: 100%;
+    background-color: white;
+    margin: 0;
+    padding: 0 0 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    color: #424243;
+}
+
+#id_photo figure {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+#id_photo img {
+    width: 80%;
+    margin: 50px 0 25px;
+    padding: 0;
+    align-self: center;
+    clip-path: circle(45%);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url('fonts/Montserrat-Regular.ttf');
+}
+
+@font-face {
+    font-family: MontserratBold;
+    src: url('fonts/Montserrat-Bold.ttf');
+}
+
+@font-face {
+    font-family: MontserratSemiBold;
+    src: url('fonts/Montserrat-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: MontserratExtra;
+    src: url(fonts/Montserrat-Medium.ttf);
+}
+
+#id_p1 {
+    font-family: Montserrat;
+    font-size: 1.75em;
+    align-self: center;
+    width: fit-content;
+    padding: 0;
+    margin: 0;
+}
+
+#id_p2 {
+    font-family: MontserratBold;
+    font-size: 1.75em;
+    font-weight: 900;
+    align-self: center;
+    width: fit-content;
+    padding: 0;
+    margin: 0;
+}
+
+#id_p3 {
+    font-family: MontserratExtra;
+    font-size: 0.65em;
+    align-self: center;
+    width: fit-content;
+    padding: 0;
+    margin: 5px 0 0;
+}
+
+aside article {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+aside article p {
+    height: 40px;
+    width: 70%;
+    position: relative;
+    top: -20px;
+    background-color: #424243;
+    color: white;
+    font-family: MontserratBold;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0 0 15px;
+}
+
+/* Contact */
+
+/* Follow Me */
+
+.class_contact, .class_follwoMe {
+    padding: 0 0 0 15%;
+    margin: 0 0 40px;
+    font-family: MontserratExtra;
+    font-size: 0.85em;
+    color: #424243;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.class_contact figure, .class_follwoMe figure {
+    margin: 0 0 15px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.class_contact img {
+    margin: 0 10px 0 0;
+    padding: 0;
+    width: 1.25em;
+}
+
+.class_follwoMe img {
+    margin: 0 10px 0 0;
+    padding: 0;
+    width: 1.75em;
+}
+
+.class_contact a, .class_follwoMe a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #424243;
+}
+
+/* Language */
+
+.class_language {
+    padding: 0;
+    width: 70%;
+    margin: 0 0 40px;
+    font-family: MontserratSemiBold;
+    font-size: 0.95em;
+    color: #424243;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+
+.class_language figure {
+    margin: 0 0 15px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.class_language div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+.class_language img {
+    margin: 0 0 0 7.5px;
+    padding: 0;
+    width: 0.6em;
+}
+
+/* Hobbies */
+
+.class_hobbies {
+    padding: 0 15%;
+    width: 70%;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.class_hobbies p {
+    background-color: transparent;
+    color: #424243;
+    height: 40px;
+    width: 80px;
+    font-family: MontserratExtra;
+    font-size: 0.75em;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* Base  information */
+
+section {
+    width: 60%;
+    padding: 55px 0 50px 0;
+    margin: 0 6% 0;
+    /* background-color: yellow; */
+}
+
+section article {
+    margin: 10px 0 40px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* align-content: flex-start; */
+}
+
+.class_titleFig {
+    margin: 0 0 10px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.class_titleFig img {
+    margin: 0 15px 0 0;
+    padding: 0;
+    width: 3em;
+}
+
+@font-face {
+    font-family: OpenSans-Bold;
+    src: url('fonts/OpenSans-Bold.ttf');
+}
+
+@font-face {
+    font-family: Lato-Regular;
+    src: url('fonts/Lato-Regular.ttf');
+}
+
+.class_titleFig figcaption {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: OpenSans-Bold;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    color: #424243;
+    border-bottom: 3px solid #343334;
+}
+
+/* About Me */
+
+#id_aboutMe {
+    margin: 15px 0 0;
+    padding: 0;
+    color: #777778;
+    font-size: 0.95em;
+    font-family: Lato-Regular;
+    text-align: justify;
+}
+
+/* Education */
+/* Expirience */
+
+.class_E {
+    margin: 20px 0 0;
+    padding: 0;
+    color: #424243;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.class_E #id_e1 {
+    margin: 0;
+    padding: 0;
+    font-family: OpenSans-Bold;
+    font-size: 1.25em;
+}
+
+
+.class_E #id_e2 {
+    margin: 0;
+    padding: 0;
+    font-family: Lato-Regular;
+    font-size: 1.05em;
+}
+
+#id_E {
+    margin: 10px 0 0;
+    padding: 0;
+    color: #777778;
+    font-size: 0.95em;
+    font-family: Lato-Regular;
+    text-align: justify;
+}
+
+#id_E span{
+    font-weight: bold;
+}
+
+/* Skills */
+
+.class_skills {
+    padding: 0;
+    margin: 15px 0 0;
+    font-family: OpenSans-Bold;
+    font-size: 0.8em;
+    color: #424243;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.class_skills figure {
+    width: 175px;
+    margin: 0 0 10px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.class_skills div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+.class_skills img {
+    margin: 0 0 0 7.5px;
+    padding: 0;
+    width: 0.6em;
+}
