@@ -56,17 +56,17 @@ aside #id_photo {
 
 @font-face {
     font-family: Montserrat;
-    src: url('fonts/Montserrat-Regular.ttf');
+    src: url('../fonts/Montserrat-Regular.ttf');
 }
 
 @font-face {
     font-family: MontserratBold;
-    src: url('fonts/Montserrat-Bold.ttf');
+    src: url('../fonts/Montserrat-Bold.ttf');
 }
 
 @font-face {
     font-family: MontserratSemiBold;
-    src: url('fonts/Montserrat-SemiBold.ttf');
+    src: url('../fonts/Montserrat-SemiBold.ttf');
 }
 
 @font-face {
@@ -270,12 +270,12 @@ section article {
 
 @font-face {
     font-family: OpenSans-Bold;
-    src: url('fonts/OpenSans-Bold.ttf');
+    src: url('../fonts/OpenSans-Bold.ttf');
 }
 
 @font-face {
     font-family: Lato-Regular;
-    src: url('fonts/Lato-Regular.ttf');
+    src: url('../fonts/Lato-Regular.ttf');
 }
 
 .class_titleFig figcaption {
