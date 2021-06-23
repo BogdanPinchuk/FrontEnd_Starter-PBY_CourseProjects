@@ -7,12 +7,11 @@ body {
 header {
     width: 210mm;
     margin: 1px auto 0;
-    padding: 0 5% 0;
+    padding: 0 6% 0;
     background-color: #161B25;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    /* align-content: flex-start; */
     align-content: flex-start;
 }
 
@@ -56,7 +55,6 @@ header figure img {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    background-color: gray;
 }
 
 #id_PIB {
@@ -67,7 +65,7 @@ header figure img {
 }
 
 #id_vacancy {
-    margin: 10px 0 25px;
+    margin: 10px 0 15px;
     padding: 2px 12px;
     font-family: MontserratAlternates;
     font-size: 1.55em;
@@ -75,6 +73,7 @@ header figure img {
 }
 
 #id_contacts {
+    width: 100%;
     margin: 0;
     padding: 0;
     font-family: AvantGardeGothicC;
@@ -82,13 +81,21 @@ header figure img {
     font-size: 1em;
     color: white;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-#id_contacts p{
+#id_contacts p {
     margin: 15px 0 7.5px;
     padding: 0;
+}
+
+.class_column {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 #id_contacts a {
@@ -109,6 +116,52 @@ header figure img {
 main {
     width: 210mm;
     margin: 0 auto 1px;
-    padding: 0;
+    padding: 0 6% 0;
     background-color: white;
 }
+
+main aside {
+    margin: 0;
+    padding: 0 0 85px;
+    width: 35%;
+    background-color: #171c261a;
+}
+
+aside article {
+    margin: 0;
+    padding: 50px 0 0;
+}
+
+aside article p {
+    margin: 0;
+    padding: 0;
+    font-family: MontserratAlternatesBold;
+    font-size: 1.75em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#id_hobby {
+    padding: 0 25% 0 0;
+}
+
+.class_ed_part{
+    padding: 0 0 0 22%;
+    margin: 30px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: #555555;
+}
+
+.class_educational p {
+    padding: 0;
+    margin: 7px 0 0;
+    font-family: MontserratAlternates;
+    font-size: 0.85em;
+}
+
+
+
