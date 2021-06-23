@@ -47,6 +47,11 @@ header figure img {
 }
 
 @font-face {
+    font-family: MontserratAlternatesBold;
+    src: url('../fonts/MontserratAlternates-SemiBold.ttf');
+}
+
+@font-face {
     font-family: AvantGardeGothicC;
     src: url('../fonts/avantgardegothicc-bold.otf');
 }
@@ -60,7 +65,7 @@ header figure img {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    background-color: gray;
+    /* background-color: gray; */
 }
 
 #id_PIB {
@@ -159,7 +164,14 @@ aside article p {
     padding: 0 0 20px 20%;
 }
 
-.class_ed_part{
+#id_educational p {
+    padding: 0;
+    margin: 7px 0 0;
+    font-family: Montserrat;
+    font-size: 0.95em;
+}
+
+.class_ed_part {
     padding: 0 0 0 22%;
     margin: 30px 0 0;
     display: flex;
@@ -169,18 +181,11 @@ aside article p {
     color: #555555;
 }
 
-#id_educational p {
-    padding: 0;
-    margin: 7px 0 0;
-    font-family: Montserrat;
-    font-size: 0.95em;
-}
-
-#id_educational p span{
+#id_educational p span {
     font-size: 0.85em;
 }
 
-#id_hobby_div{
+#id_hobby_div {
     padding: 0 0 0 20%;
     margin: 0;
     font-family: MontserratAlternatesBold;
@@ -191,9 +196,9 @@ aside article p {
     justify-content: flex-start;
 }
 
-#id_hobby_div figure{
+#id_hobby_div figure {
     width: 100%;
-    margin: 20px 0 0;
+    margin: 25px 0 0;
     padding: 0;
     display: flex;
     flex-direction: row;
@@ -201,13 +206,13 @@ aside article p {
     align-items: center;
 }
 
-#id_hobby_div figure img{
-    width: 5%;
+#id_hobby_div figure img {
+    width: 7%;
     margin: 0 20px 0 0;
     padding: 0;
 }
 
-section{
+section {
     margin: 0 0 0 7%;
     padding: 0 0 85px;
     width: 60%;
@@ -217,8 +222,8 @@ section{
     align-items: flex-start;
 }
 
-
 section article {
+    width: 100%;
     margin: 0;
     padding: 50px 0 0;
 }
@@ -231,5 +236,93 @@ section article p {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    color: #161b25;
 }
 
+.class_experience {
+    margin: 40px 0 0;
+    font-family: Montserrat;
+}
+
+.class_exp_1 {
+    margin: 10px 0 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.class_exp_1 p {
+    font-size: 0.85em;
+}
+
+.class_exp_11 {
+    width: 30%;
+    color: #555555;
+    font-family: MontserratAlternates;
+    font-weight: bold;
+}
+
+.class_exp_12 {
+    width: 70%;
+    font-family: MontserratAlternatesBold;
+    font-weight: bolder;
+    color: #515151;
+}
+
+.class_exp_2 p {
+    font-size: 0.85em;
+}
+
+.class_exp_21 {
+    width: 30%;
+    color: #555555;
+    font-family: MontserratAlternates;
+    font-weight: bold;
+}
+
+.class_exp_22 {
+    width: 60%;
+    font-family: Montserrat;
+    font-weight: lighter;
+    color: #515151;
+}
+
+#id_block_skills{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#id_skills {
+    margin: 0 0 40px;
+    padding: 0;
+}
+
+section article figure {
+    width: 40%;
+    margin: 20px 45px 0 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+section article figure div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+section article figure figcaption {
+    font-family: MontserratAlternatesBold;
+    color: #555555;
+    font-size: 0.95em;
+}
+
+section article figure img {
+    width: 14px;
+    padding: 0;
+    margin: 0 0 0 6px;
+}
