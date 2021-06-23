@@ -7,7 +7,7 @@ body {
 header {
     width: 210mm;
     margin: 1px auto 0;
-    padding: 0 6% 0;
+    padding: 0 75px 0;
     background-color: #161B25;
     display: flex;
     flex-direction: row;
@@ -116,7 +116,7 @@ header figure img {
 main {
     width: 210mm;
     margin: 0 auto 1px;
-    padding: 0 6% 0;
+    padding: 0 75px 0;
     background-color: white;
 }
 
@@ -143,7 +143,10 @@ aside article p {
 }
 
 #id_hobby {
-    padding: 0 25% 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 0 0 20px 20%;
 }
 
 .class_ed_part{
@@ -156,12 +159,42 @@ aside article p {
     color: #555555;
 }
 
-.class_educational p {
+#id_educational p {
     padding: 0;
     margin: 7px 0 0;
-    font-family: MontserratAlternates;
+    font-family: Montserrat;
+    font-size: 0.95em;
+}
+
+#id_educational p span{
     font-size: 0.85em;
 }
 
+#id_hobby_div{
+    padding: 0 0 0 20%;
+    margin: 0;
+    font-family: MontserratAlternatesBold;
+    font-size: 0.85em;
+    color: #555555;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#id_hobby_div figure{
+    width: 100%;
+    margin: 20px 0 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#id_hobby_div figure img{
+    width: 5%;
+    margin: 0 20px 0 0;
+    padding: 0;
+}
 
 
